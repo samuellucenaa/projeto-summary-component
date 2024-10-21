@@ -99,10 +99,50 @@ body{
     font-size: 14px;
     color: var(--cor-primaria2);
     font-weight: 700;
+    text-decoration: none;
+}
+
+.plan a:hover{
+    text-decoration: underline;
 }
 
 .buttons{
-    background-color: red;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     flex: 1;
+    margin-top: -1px;
     border-radius: 0px 0px 20px 20px;
+}
+
+.button1 a,
+.button2 a{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.button1 a{
+    background-color: var(--cor-primaria2);
+    color: #fff;
+    padding: 10px 95px;
+    border-radius: 7px;
+}
+
+.button1 a:hover{
+    background-color: hsl(245, 72%, 39%);
+}
+
+.button1{
+    margin-bottom: 20px;
+}
+
+.button2 a{
+    color: var(--cor-secundaria2);
+}
+
+.button2 a:hover{
+    color: hsl(223, 17%, 40%);
 }
