@@ -150,3 +150,16 @@ body{
 
 /* Configs mobile */
 
+@media (max-width: 480px){
+    .container{
+        width: 300px;
+    }
+
+    .top svg{
+        width: 300;
+    }
+
+    .buttons{
+        padding-bottom: 20px;
+    }
+}
