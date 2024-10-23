@@ -7,7 +7,10 @@
 }
 
 body{
-    background-color: var(--cor-secundaria2)
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: var(--cor-primaria1)
+
 }
 
 :root{
