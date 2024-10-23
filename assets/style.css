@@ -159,7 +159,7 @@ body{
     }
 
     .top svg{
-        width: 300;
+        width: 300px;
     }
 
     .buttons{
@@ -167,6 +167,6 @@ body{
     }
 
     .button1 a{
-        padding: 10px 50x;
+        padding: 10px 45px;
     }
 }
