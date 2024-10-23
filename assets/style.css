@@ -154,6 +154,10 @@ body{
 /* Configs mobile */
 
 @media (max-width: 480px){
+    body{
+        background-image: url(../images/pattern-background-mobile.svg);
+    }
+    
     .conteudo{
         width: 300px;
     }
